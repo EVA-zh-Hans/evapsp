@@ -1,5 +1,5 @@
 ---
-description: "新世纪福音战士 钢铁的女友2nd 便携版 汉化补丁下载与说明"
+description: "新世纪福音战士 钢铁的女友2nd 携带版 汉化补丁下载与说明"
 ---
 
 <GameInfo slug="gos2" />

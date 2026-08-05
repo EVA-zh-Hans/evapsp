@@ -1,5 +1,5 @@
 ---
-description: "新世纪福音战士 机密档案 便携版 汉化补丁下载与说明"
+description: "新世纪福音战士 机密档案 携带版 汉化补丁下载与说明"
 ---
 
 <GameInfo slug="secret-of-eva" />
