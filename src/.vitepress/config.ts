@@ -63,7 +63,7 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/EVA-zh-Hans' },
     ],
     footer: {
-      message: '新世纪福音战士 PSP 游戏汉化项目',
+      message: 'EVA 汉化计划 | main_void',
       copyright: '本网站与各汉化项目无任何关联的官方授权，仅供学习与研究使用',
     },
     docFooter: { prev: '上一篇', next: '下一篇' },
