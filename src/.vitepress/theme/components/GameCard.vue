@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed } from 'vue'
+import { withBase } from 'vitepress'
 import { useI18n } from '../labels'
 import { useGames } from '../useGames'
 import CoverImage from './CoverImage.vue'
@@ -9,8 +10,8 @@ const props = defineProps<{ slug: string }>()
 const { t, pick, lang } = useI18n()
 const { bySlug } = useGames()
 const game = bySlug(props.slug)!
-const detailLink = computed(
-  () => `/${lang.value === 'en' ? 'en/' : ''}pages/games/${props.slug}`,
+const detailLink = computed(() =>
+  withBase(`/${lang.value === 'en' ? 'en/' : ''}pages/games/${props.slug}.html`),
 )
 </script>
 
