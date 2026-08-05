@@ -95,3 +95,43 @@ ULJM-05480	 Shinseiki Evangelion - Battle Orchestra Portable	 (J)
 NPJH-50255	 Shinseiki Evangelion - Battle Orchestra Portable	 (J)
 PBGP-0078	 Shinseiki Evangelion - Battle Orchestra Portable (Limited Edition)	 (J)
 ```
+## Website
+
+The website is built with [VitePress](https://vitepress.dev) and deployed to GitHub Pages via GitHub Actions: <https://eva-zh-hans.github.io/evapsp/>
+
+### Development
+
+```bash
+yarn install
+yarn dev       # local dev server (http://localhost:5173)
+yarn build     # build to src/.vitepress/dist
+yarn preview   # preview the production build
+yarn validate  # validate src/data/games.json
+```
+
+### Site structure
+
+```text
+src/
+├─ .vitepress/            # VitePress config and theme (components, i18n)
+├─ data/games.json        # game data (single source of truth, bilingual)
+├─ pages/games/*.md       # game detail pages (Simplified Chinese)
+├─ en/pages/games/*.md    # game detail pages (English)
+├─ index.md               # home page (Simplified Chinese)
+├─ en/index.md            # home page (English)
+├─ scripts/validate-games.mjs
+└─ styles/custom.css
+assets/covers/<slug>.jpg  # game covers (placeholder shown if missing)
+.github/workflows/deploy.yml
+```
+
+### Adding a game
+
+1. Add an entry to `src/data/games.json`
+2. Put a cover at `assets/covers/<slug>.jpg` (optional; a placeholder is shown otherwise)
+3. Create `src/pages/games/<slug>.md` and `src/en/pages/games/<slug>.md`
+4. Run `yarn validate && yarn build`
+
+### Deployment
+
+Pushing to `main` triggers the GitHub Actions workflow. The first time, enable **Settings → Pages → Build and deployment → Source: GitHub Actions**.

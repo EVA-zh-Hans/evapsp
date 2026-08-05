@@ -1,0 +1,220 @@
+[
+  {
+    "id": "gos2",
+    "slug": "gos2",
+    "status": "done",
+    "year": 2009,
+    "nameJa": "新世紀エヴァンゲリオン 鋼鉄のガールフレンド2nd ポータブル",
+    "nameZh": "新世纪福音战士 钢铁的女友2nd 便携版",
+    "nameEn": "Neon Genesis Evangelion: Girlfriend of Steel 2nd Portable",
+    "repoUrl": "https://github.com/EVA-zh-Hans/gos_2_re",
+    "paratranzUrl": "https://paratranz.cn/projects/13612",
+    "serials": [
+      "ULJM-05477",
+      "NPJH-50206",
+      "CF00-20021"
+    ],
+    "releases": [
+      {
+        "version": "v1.1",
+        "file": "Chinese.2025.Kaworu.fix.from.Original.xdelta",
+        "url": "https://github.com/EVA-zh-Hans/gos_2_re/releases/download/v1.1/Chinese.2025.Kaworu.fix.from.Original.xdelta",
+        "note": {
+          "zh": "推荐：修复渚薰剧情 13 句台词，基于日文原版镜像打补丁",
+          "en": "Recommended: fixes 13 lines of Kaworu's dialogue; applies to the original Japanese ISO"
+        }
+      },
+      {
+        "version": "v1.0",
+        "file": "gos2.xdelta",
+        "url": "https://github.com/EVA-zh-Hans/gos_2_re/releases/download/v1.0/gos2.xdelta",
+        "note": {
+          "zh": "钢铁女友 2nd 汉化补丁，基于 2010 年 EVA 同好会翻译文本修正",
+          "en": "GOS2nd Chinese patch, revised from the 2010 EVA Fan Club translation"
+        }
+      }
+    ]
+  },
+  {
+    "id": "gos-tokubetsu",
+    "slug": "gos-tokubetsu",
+    "status": "done",
+    "year": 2009,
+    "nameJa": "新世紀エヴァンゲリオン 鋼鉄のガールフレンド 特別編 ポータブル",
+    "nameZh": "新世纪福音战士 钢铁的女友 特别篇 便携版",
+    "nameEn": "Neon Genesis Evangelion: Girlfriend of Steel Tokubetsu-Hen Portable",
+    "repoUrl": "https://github.com/EVA-zh-Hans/gos_2_re",
+    "paratranzUrl": "https://paratranz.cn/projects/13612",
+    "serials": [
+      "ULJM-05456",
+      "NPJH-50205",
+      "CF00-20019",
+      "CF00-20023"
+    ],
+    "releases": [
+      {
+        "version": "v1.0",
+        "file": "gos1.xdelta",
+        "url": "https://github.com/EVA-zh-Hans/gos_2_re/releases/download/v1.0/gos1.xdelta",
+        "note": {
+          "zh": "特别篇字幕汉化补丁（不含 UI），文本基于 2023 年 tehmugi 英译本翻译修订",
+          "en": "Tokubetsu-Hen subtitle patch (UI not translated), based on tehmugi's 2023 English localization"
+        }
+      }
+    ]
+  },
+  {
+    "id": "secret-of-eva",
+    "slug": "secret-of-eva",
+    "status": "done",
+    "year": 2007,
+    "nameJa": "シークレット オブ エヴァンゲリオン ポータブル",
+    "nameZh": "新世纪福音战士 机密档案 便携版",
+    "nameEn": "Secret of Evangelion Portable",
+    "repoUrl": "https://github.com/EVA-zh-Hans/secret_of_eva",
+    "serials": [
+      "ULJM-05251",
+      "NPJH-50207",
+      "ULJM-05551",
+      "CF00-20005"
+    ],
+    "releases": [
+      {
+        "version": "v0.0.1",
+        "file": "EVASECRET.xdelta.zip",
+        "url": "https://github.com/EVA-zh-Hans/secret_of_eva/releases/download/v0.0.1/EVASECRET.xdelta.zip",
+        "note": {
+          "zh": "机密档案汉化补丁（xdelta 压缩包）",
+          "en": "Secret of Evangelion Chinese patch (xdelta archive)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "eva-jo",
+    "slug": "eva-jo",
+    "status": "done",
+    "year": 2009,
+    "nameJa": "エヴァンゲリオン：序",
+    "nameZh": "新世纪福音战士：序",
+    "nameEn": "Evangelion: Jo",
+    "repoUrl": "https://github.com/EVA-zh-Hans/eva_jo_re",
+    "serials": [
+      "UCAS-40260",
+      "UCKS-45121",
+      "ULJS-00201"
+    ],
+    "releases": [
+      {
+        "version": "v1.0.0",
+        "file": "ULJS00201-zh.xdelta",
+        "url": "https://github.com/EVA-zh-Hans/eva_jo_re/releases/download/v1.0.0/ULJS00201-zh.xdelta",
+        "note": {
+          "zh": "《序》汉化补丁，需基于 ULJS00201 日文原版镜像",
+          "en": "Evangelion: Jo Chinese patch; requires the original ULJS00201 Japanese ISO"
+        }
+      }
+    ]
+  },
+  {
+    "id": "nge2",
+    "slug": "nge2",
+    "status": "working",
+    "year": 2006,
+    "nameJa": "新世紀エヴァンゲリオン2 造られしセカイ -another cases-",
+    "nameZh": "新世纪福音战士2 被创造的世界 Another Cases",
+    "nameEn": "Shinseiki Evangelion 2: Tsukurareshi Sekai - Another Cases",
+    "repoUrl": "https://github.com/EVA-zh-Hans/nge_2_re",
+    "paratranzUrl": "https://paratranz.cn/projects/10882",
+    "serials": [
+      "ULJS-00064",
+      "ULJS-00061",
+      "ULJS-19017"
+    ],
+    "releases": [
+      {
+        "version": "v2.1.1-beta.1",
+        "file": "ULJS00064_patch_20260730-195406.xdelta",
+        "url": "https://github.com/EVA-zh-Hans/nge_2_re/releases/download/v2.1.1-beta.1/ULJS00064_patch_20260730-195406.xdelta",
+        "note": {
+          "zh": "ULJS00064 测试版补丁",
+          "en": "Beta patch for ULJS00064"
+        }
+      },
+      {
+        "version": "v2.1.1-beta.1",
+        "file": "ULJS00061_patch_20260730-195359.xdelta",
+        "url": "https://github.com/EVA-zh-Hans/nge_2_re/releases/download/v2.1.1-beta.1/ULJS00061_patch_20260730-195359.xdelta",
+        "note": {
+          "zh": "ULJS00061 测试版补丁",
+          "en": "Beta patch for ULJS00061"
+        }
+      },
+      {
+        "version": "v2.1.1-beta.1",
+        "file": "translation.zip",
+        "url": "https://github.com/EVA-zh-Hans/nge_2_re/releases/download/v2.1.1-beta.1/translation.zip",
+        "note": {
+          "zh": "ParaTranz 翻译文本包（JSON）",
+          "en": "ParaTranz translation package (JSON)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "shin-gekijouban",
+    "slug": "shin-gekijouban",
+    "status": "not-planned",
+    "year": 2011,
+    "nameJa": "ヱヴァンゲリヲン新劇場版 -サウンドインパクト-",
+    "nameZh": "新世纪福音战士 新剧场版：第三次冲击",
+    "nameEn": "Evangelion Shin Gekijouban: 3nd Impact",
+    "serials": [
+      "ULAS-42293",
+      "ULJS-00408",
+      "NPJH-50457",
+      "ULJS-00407"
+    ]
+  },
+  {
+    "id": "pachige-damashi-vol2",
+    "slug": "pachige-damashi-vol2",
+    "status": "not-planned",
+    "year": 2011,
+    "nameJa": "激熱!!パチゲー魂 Portable Vol.2 - エヴァンゲリオン - 真実の翼",
+    "nameZh": "激热!! 柏青哥魂 便携版 Vol.2 - 福音战士 - 真实之翼",
+    "nameEn": "Gekiatsu!! PachiGe-Damashi Portable Vol.2 - Evangelion - Shinjitsu no Tsubasa",
+    "serials": [
+      "ULJM-05906",
+      "FLGM-00002"
+    ]
+  },
+  {
+    "id": "hisshou-pachinko",
+    "slug": "hisshou-pachinko",
+    "status": "not-planned",
+    "year": 2011,
+    "nameJa": "必勝パチンコ - パチスロ攻略シリーズ Portable Vol.1 - 新世紀エヴァンゲリオン - 魂の軌跡",
+    "nameZh": "必胜柏青哥 柏青嫂攻略系列 便携版 Vol.1 - 福音战士 - 魂之轨迹",
+    "nameEn": "Hisshou Pachinko - Pachi-Slot Kouryaku Series Portable Vol.1 - Shinseiki Evangelion - Tamashii no Kiseki",
+    "serials": [
+      "LJS-00295",
+      "ULJS-00340"
+    ]
+  },
+  {
+    "id": "battle-orchestra",
+    "slug": "battle-orchestra",
+    "status": "not-planned",
+    "year": null,
+    "nameJa": "新世紀エヴァンゲリオン バトルオーケストラ ポータブル",
+    "nameZh": "新世纪福音战士 战斗交响曲 便携版",
+    "nameEn": "Shinseiki Evangelion - Battle Orchestra Portable",
+    "serials": [
+      "UCAS-40269",
+      "ULJM-05480",
+      "NPJH-50255",
+      "PBGP-0078"
+    ]
+  }
+]

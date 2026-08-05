@@ -1,0 +1,16 @@
+{
+  "name": "evapsp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Homepage for Neon Genesis Evangelion Translation Projects on PSP",
+  "scripts": {
+    "dev": "vitepress dev src",
+    "build": "vitepress build src",
+    "preview": "vitepress preview src",
+    "validate": "node src/scripts/validate-games.mjs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.3"
+  }
+}
