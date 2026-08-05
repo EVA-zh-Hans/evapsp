@@ -231,12 +231,12 @@
   border-color: var(--evp-accent);
   color: var(--evp-accent);
 }
-.game-btn-primary {
+.game-btn.game-btn-primary {
   background: var(--evp-accent);
   border-color: var(--evp-accent);
   color: #fff;
 }
-.game-btn-primary:hover {
+.game-btn.game-btn-primary:hover {
   background: #a85555;
   border-color: #a85555;
   color: #fff;
