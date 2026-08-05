@@ -61,14 +61,15 @@
   transform: translateY(-2px);
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
 }
-.game-card-cover {
+.game-card .game-card-cover {
   width: 104px;
-  height: 140px;
+  height: 154px;
   flex: 0 0 auto;
 }
 .game-card-body {
   display: flex;
   flex-direction: column;
+  flex: 1 1 auto;
   min-width: 0;
 }
 .game-card-head {
